@@ -66,20 +66,20 @@ The AX=Z matrix equation is a fundamental representation used in circuit analysi
 A Matrix: The A matrix combines the coefficients of the unknown variables (represented by X) in the system of linear equations.
 It is composed of four sub-matrices: G, B, C, and D.
 
-G Matrix: Contains conductance terms for resistive elements.
-B Matrix: Describes the relationship between branch currents and node voltages.
-C Matrix: Relates voltage-controlled sources to node voltages.
-D Matrix: Accounts for direct signal coupling between inputs and outputs.
-X Vector: The X vector represents the vector of unknown variables in the system.
-Z Vector: The Z vector represents the vector of source terms and boundary conditions applied to the circuit. It includes values representing independent sources and initial conditions.
+G Matrix: Contains conductance terms for resistive elements.  
+B Matrix: Describes the relationship between branch currents and node voltages.  
+C Matrix: Relates voltage-controlled sources to node voltages.  
+D Matrix: Accounts for direct signal coupling between inputs and outputs.  
+X Vector: The X vector represents the vector of unknown variables in the system.  
+Z Vector: The Z vector represents the vector of source terms and boundary conditions applied to the circuit. It includes values representing independent sources and initial conditions.  
 
 Refer to this link for a more detailed explanation of the MNA method: https://cheever.domains.swarthmore.edu/Ref/mna/MNA2.html  
 
-## Testcases
-The project includes 13 test cases located in the `testcases` folder. These test cases cover various circuit configurations and scenarios to ensure the correctness of the solver.
+## Testcases  
+The project includes 13 test cases located in the `testcases` folder. These test cases cover various circuit configurations and scenarios to ensure the correctness of the solver.  
 
-## Output Format
-Node voltages are listed, followed by the currents through the voltage sources.
+## Output Format  
+Node voltages are listed, followed by the currents through the voltage sources.  
 
 ## Sample Runs
 
