@@ -38,17 +38,17 @@ Where:
 
 Example netlist:
 
-0.1
-1
-R V1 V0 20 0
-Vsrc V2 V1 32 0
-R V2 V0 80 0
-Vsrc V3 V0 20 0
-R V2 V3 40 0
--1
+0.1  
+1  
+R V1 V0 20 0  
+Vsrc V2 V1 32 0  
+R V2 V0 80 0  
+Vsrc V3 V0 20 0  
+R V2 V3 40 0  
+-1  
 
 
-Explanation:
+Explanation:  
 - `0.1` represents the simulation time in seconds.
 - `1` indicates the number of iterations.
 - `R V2 V3 40 0`: Resistor connected between nodes 2 and 3 with a value of 40 and no initial condition.
