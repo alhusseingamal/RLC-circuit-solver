@@ -79,7 +79,7 @@ Refer to this link for a more detailed explanation of the MNA method: https://ch
 The project includes 13 test cases located in the `testcases` folder. These test cases cover various circuit configurations and scenarios to ensure the correctness of the solver.  
 
 ## Output Format  
-Node voltages are listed, followed by the currents through the voltage sources.  
+Node voltages are listed, followed by the currents through the voltage source branches.    
 
 ## Sample Runs
 
